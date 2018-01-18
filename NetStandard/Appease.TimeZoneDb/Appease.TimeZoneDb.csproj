@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Chris Dostert,Appease</Authors>
+    <PackageTags>TimeZones RealTime MicrosoftTimeZoneId IANATimeZoneId TimeZoneData TZ Time Zone TimeZoneDB OlsonDatabase TZDB IANA CLDR</PackageTags>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <Company>Chris Dostert,Appease</Company>
+    <Product>Chris Dostert,Appease</Product>
+    <Description>A Time Zone Database for .net which uses real time IANA and CLDR data repositories as its data sources. Provides historical and current time zone data including mappings from IANA Time Zone Ids to Microsoft Time Zones Ids.</Description>
+    <PackageId>TimeZoneDb</PackageId>
+    <PackageProjectUrl>https://github.com/vijayvepa/DotNetTimeZoneDb</PackageProjectUrl>
+    <Version>1.1.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Spatial" Version="5.8.3" />
+    <PackageReference Include="TimeZoneMapper" Version="1.3.0" />
+  </ItemGroup>
+
+</Project>
